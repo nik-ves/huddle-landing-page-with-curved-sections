@@ -1,2 +1,1 @@
-# huddle-landing-page-with-curved-sections
- 
+# Huddle Landing Page With Curved Sections - Frontend Mentor
