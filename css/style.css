@@ -1,1 +1,193 @@
-/* CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto; }
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4 {
+  font-family: "Poppins", sans-serif; }
+
+.heading-1 {
+  font-size: 8rem; }
+
+.heading-2 {
+  font-size: 4.5rem; }
+
+.heading-3 {
+  font-size: 4rem; }
+
+.heading-4 {
+  font-size: 3rem;
+  text-transform: uppercase; }
+
+.heading-5 {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: gray; }
+
+.btn-transparent {
+  padding: 1rem 3rem;
+  cursor: pointer;
+  color: #ff8fd8;
+  border: 1px solid #ff8fd8;
+  background-color: #fff;
+  border-radius: 100px;
+  font-family: "Open Sans", sans-serif; }
+
+.btn-pink {
+  background-color: #ff52bf;
+  border: 1px solid #ff52bf;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s; }
+  .btn-pink:hover {
+    border: 1px solid #ff8fd8;
+    background-color: #ff8fd8; }
+
+.btn-pink-big {
+  border-radius: 100px;
+  padding: 2rem 8rem; }
+
+.btn-pink-small {
+  padding: 1rem 3rem;
+  border-radius: 5px; }
+
+.fab:hover {
+  color: aqua; }
+
+.u-margin-bottom {
+  margin-bottom: 3rem; }
+
+.header {
+  margin-top: 3rem; }
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem; }
+  .header__image-box {
+    display: flex; }
+
+.intro {
+  margin-top: 20rem;
+  padding-bottom: 20rem;
+  background: url("../images/bg-section-top-desktop-1.svg") no-repeat bottom;
+  background-size: 100% 15rem; }
+  .intro__content {
+    text-align: center;
+    padding: 0 3rem; }
+  .intro__text {
+    font-size: 1.8rem;
+    font-family: "Open Sans", sans-serif;
+    max-width: 53rem;
+    margin: 4rem auto; }
+  .intro__image-box {
+    max-width: 100%;
+    margin: 10rem 0; }
+  .intro__image {
+    max-width: 85%; }
+  .intro__numbers {
+    display: flex;
+    justify-content: space-around; }
+    .intro__numbers--picture {
+      display: flex; }
+
+.illustrations__box-content {
+  display: flex;
+  max-width: 120rem;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center; }
+
+.illustrations__box {
+  padding: 0 3rem; }
+  .illustrations__box--1 {
+    background-color: #f5faff; }
+  .illustrations__box--2 {
+    padding: 20rem 3rem 25rem 3rem;
+    background: url("../images/bg-section-top-desktop-2.svg") no-repeat bottom, url("../images/bg-section-bottom-desktop-1.svg") no-repeat top;
+    background-size: 100%; }
+  .illustrations__box--3 {
+    background-color: #f5faff; }
+
+.illustrations__text {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2.2rem;
+  max-width: 50rem; }
+
+.illustrations__image {
+  max-width: 45%; }
+
+.illustrations__invite {
+  background: url("../images/bg-section-bottom-desktop-2.svg") no-repeat top, url("../images/bg-footer-top-desktop.svg") no-repeat bottom;
+  background-size: 100% 15rem;
+  padding: 30rem 3rem;
+  text-align: center; }
+
+.footer {
+  background-color: #00252e;
+  color: #fff; }
+  .footer__box {
+    padding: 0 3rem; }
+  .footer__content {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0;
+    flex-wrap: wrap; }
+  .footer__description-1, .footer__description-2 {
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    margin: 2rem 0 4rem 0;
+    font-weight: 600; }
+  .footer__description-1 {
+    max-width: 32rem; }
+  .footer__info {
+    display: flex;
+    margin-bottom: 2rem;
+    text-align: center; }
+    .footer__info--phone {
+      margin-right: 2rem; }
+    .footer__info--email {
+      margin-right: 1.75rem; }
+    .footer__info--text {
+      font-size: 1.5rem;
+      font-family: "Open Sans", sans-serif; }
+  .footer__icons {
+    margin-top: 6rem; }
+    .footer__icons--icon {
+      font-size: 4rem;
+      text-decoration: none;
+      color: #fff; }
+      .footer__icons--icon:not(:last-child) {
+        margin-right: 2rem; }
+  .footer__description-2 {
+    max-width: 37rem; }
+  .footer__input {
+    display: flex;
+    flex-wrap: wrap; }
+    .footer__input--field {
+      width: 30rem;
+      margin-right: 3rem;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      padding: 1rem; }
