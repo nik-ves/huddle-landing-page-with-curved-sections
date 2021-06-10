@@ -10,6 +10,11 @@ $color-white: #fff;
 $font-poppins: 'Poppins', sans-serif;
 $font-open-sans: 'Open Sans', sans-serif;
 
+// MEDIA QUERIES BREAKPOINTS
+$bp-largest: 56.5em; // ~900px
+$bp-large: 44em; // ~700px
+$bp-medium: 31.5em; // ~500px
+
 *,
 *::before,
 *::after {
@@ -21,6 +26,10 @@ $font-open-sans: 'Open Sans', sans-serif;
 html {
     box-sizing: border-box;
     font-size: 62.5%; // Makes 1rem = 10px -- 10px/16px = 62.5%
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 55%;
+    }
 }
 
 .container {

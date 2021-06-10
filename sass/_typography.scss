@@ -8,14 +8,27 @@
 
 .heading-1 {
     font-size: 8rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 6.5rem;
+    }
 }
 
 .heading-2 {
     font-size: 4.5rem;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 3rem;  
+    }
 }
 
 .heading-3 {
     font-size: 4rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        margin-top: 4rem;
+        font-size: 3rem;
+    }
 }
 
 .heading-4 {
@@ -39,6 +52,10 @@
     background-color: $color-white;
     border-radius: 100px;
     font-family: $font-open-sans;
+
+    @media only screen and (max-width: $bp-large) {
+        padding: 0.7rem 2.5rem;          
+    }
 }
 
 .btn-pink {
@@ -64,6 +81,10 @@
 .btn-pink-small {
     padding: 1rem 3rem;
     border-radius: 5px;
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 100%;
+    }
 }
 
 // ICONS STYLES
